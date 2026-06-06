@@ -1,0 +1,4 @@
+title: The Tinted Lens
+description: A personal blog about strategy, engineering, and build projects.
+theme: minima
+permalink: /blog/:title/
