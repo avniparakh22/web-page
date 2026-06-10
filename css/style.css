@@ -55,6 +55,47 @@ header {
     color: var(--accent-color);
 }
 
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    max-width: 680px;
+    text-align: center;
+    margin-bottom: 80px;
+    animation: fadeIn 0.8s ease-in;
+}
+
+.page-title {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    letter-spacing: -0.03em;
+    color: var(--text-main);
+}
+
+.hero-intro {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    font-weight: 300;
+    letter-spacing: 0.01em;
+}
+
+/* Content Section */
+.content-section {
+    width: 100%;
+    max-width: 680px;
+    margin-bottom: 60px;
+}
+
+.content-section h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: var(--text-main);
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
 /* Post Content Styling */
 article {
     width: 100%;
@@ -130,6 +171,18 @@ article {
     transform: translateY(0);
 }
 
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* Blog Index Page */
 .blog-index {
     width: 100%;
@@ -178,6 +231,8 @@ article {
 }
 
 @media (max-width: 480px) {
+    .page-title { font-size: 2.5rem; }
+    .hero-intro { font-size: 1.1rem; }
     .post-title { font-size: 2rem; }
     .blog-title { font-size: 1.25rem; }
     body { padding: 20px 15px; }
