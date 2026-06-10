@@ -3,135 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paralysis Analysis | The Tinted Lens</title>
-    <style>
-        /* CSS Reset & Variables */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --bg-color: #fcfbf9;
-            --text-main: #2b2b2a;
-            --text-muted: #6e6d6a;
-            --accent-color: #8c7b6e;
-            --border-color: #e6e4e0;
-            --font-serif: "Georgia", serif;
-            --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        }
-
-        /* Layout & Typography */
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            font-family: var(--font-serif);
-            line-height: 1.8;
-            padding: 40px 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        header {
-            width: 100%;
-            max-width: 680px;
-            margin-bottom: 60px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 20px;
-        }
-
-        .site-title {
-            font-family: var(--font-sans);
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: var(--text-muted);
-            margin-bottom: 10px;
-        }
-
-        /* Post Content Styling */
-        article {
-            width: 100%;
-            max-width: 680px;
-        }
-
-        .post-title {
-            font-size: 2.5rem;
-            font-weight: 400;
-            line-height: 1.2;
-            margin-bottom: 15px;
-            letter-spacing: -0.02em;
-        }
-
-        .post-meta {
-            font-family: var(--font-sans);
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            margin-bottom: 40px;
-        }
-
-        .post-body p {
-            font-size: 1.15rem;
-            margin-bottom: 24px;
-            color: var(--text-main);
-        }
-
-        /* Highlight block for the core thesis */
-        .insight-quote {
-            border-left: 2px solid var(--accent-color);
-            padding-left: 20px;
-            margin: 40px 0;
-            font-style: italic;
-            color: var(--text-muted);
-        }
-
-        /* Interactive Footer Element */
-        .action-tray {
-            margin-top: 60px;
-            padding-top: 30px;
-            border-top: 1px solid var(--border-color);
-            text-align: center;
-            font-family: var(--font-sans);
-        }
-
-        .smile-btn {
-            background: none;
-            border: 1px solid var(--accent-color);
-            color: var(--accent-color);
-            padding: 10px 20px;
-            font-size: 0.9rem;
-            cursor: pointer;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-        }
-
-        .smile-btn:hover {
-            background-color: var(--accent-color);
-            color: white;
-        }
-
-        .hidden-message {
-            margin-top: 20px;
-            font-size: 1rem;
-            color: var(--accent-color);
-            opacity: 0;
-            transform: translateY(10px);
-            transition: all 0.5s ease;
-        }
-
-        .hidden-message.show {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        @media (max-width: 480px) {
-            .post-title { font-size: 2rem; }
-            body { padding: 20px 15px; }
-        }
-    </style>
+    <title>The Tinted Lens | Blog</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -140,58 +13,21 @@
     </header>
 
     <main>
-        <article>
-            <h1 class="post-title">Paralysis Analysis</h1>
-            <div class="post-meta">June 11, 2026 • Reflection</div>
+        <div class="blog-index">
+            <h1 class="post-title">Blog</h1>
+            <p style="color: var(--text-muted); margin-bottom: 40px;">Reflections and musings</p>
 
-            <div class="post-body">
-                <p>It has been so long since I wrote anything. Lately, I feel like I'm living on top of a giant pile of dead dreams and forgotten hobbies.</p>
-                
-                <p>I look around my room and see the casualties of my own curiosity. So many books, bought and unread. So many fascinating things left unlearnt. Dusty music instruments, loved but never played.</p>
-                
-                <p>Even my own body feels like a collection of working organs running on auto-pilot.</p>
-                
-                <p>The blog page I wanted to host, the card game I wanted to design, learning fingerstyle on the guitar, painting, that 1000-piece puzzle... where does the list even end?</p>
-                
-                <p>It's been a year since I cleared CFA Level 1, and honestly, I feel like I have nothing to show for it. Naught.</p>
-                
-                <p>I was never like this—at least, not for the longest time I can remember. All my life I have been after something or the other. Somewhere along the way, I became a lump of sadness and mediocrity.</p>
-                
-                <p>Despite having a profuse amount of time on my hands, I am severely lacking the motivation to actually get things done. And the worst of it? I don't even laugh anymore. That used to be my default.</p>
-                
-                <p>Every day feels exhausting, and my habits are all over the place. Part of me wonders if it's time to cut people off and just focus on myself. I don't entirely remember how I managed it all before.</p>
-
-                <div class="insight-quote">
-                    "Too much freedom can feel like a cage. When every path is open, standing still feels safer than picking the wrong one."
-                </div>
-
-                <p>All my time goes into deciding what activities will maximize my productivity. Little do I know!</p>
-                
-                <p>What do I do? How do I fix this? Where do I even start? How do I think my way out of this thinking trap?</p>
-                
-                <p>Maybe pick a book and read just 10 pages? Or play something I already know on the guitar for 5 minutes? Re-do that 250-piece puzzle? Paint the smaller canvas?</p>
-                
-                <p>Or write a blog on Word, look at it, and smile instead of waiting for my website to come to life? 😊</p>
-            </div>
-
-            <div class="action-tray">
-                <button class="smile-btn" id="actionBtn">Click to take a micro-step</button>
-                <div class="hidden-message" id="message">You just broke the loop. This post is live. You are writing again.</div>
-            </div>
-        </article>
+            <ul class="blog-list">
+                <li class="blog-item">
+                    <a href="blogs/paralysis-analysis.html" class="blog-link">
+                        <div class="blog-title">Paralysis Analysis</div>
+                        <div class="blog-date">June 11, 2026 • Reflection</div>
+                        <div class="blog-excerpt">Too much freedom can feel like a cage. When every path is open, standing still feels safer than picking the wrong one.</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </main>
 
-    <script>
-        // Simple JavaScript execution to unlock the closing thought interactive loop
-        const button = document.getElementById('actionBtn');
-        const message = document.getElementById('message');
-
-        button.addEventListener('click', () => {
-            message.classList.add('show');
-            button.textContent = "Step taken.";
-            button.style.opacity = "0.6";
-            button.style.pointerEvents = "none";
-        });
-    </script>
 </body>
 </html>
