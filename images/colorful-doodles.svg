@@ -1,0 +1,149 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="white"/>
+  
+  <!-- Sun -->
+  <circle cx="150" cy="100" r="40" fill="#FFD700" stroke="black" stroke-width="3"/>
+  <line x1="150" y1="30" x2="150" y2="5" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="150" y1="170" x2="150" y2="195" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="220" y1="100" x2="245" y2="100" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="80" y1="100" x2="55" y2="100" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="210" y1="40" x2="228" y2="22" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="90" y1="160" x2="72" y2="178" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="210" y1="160" x2="228" y2="178" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="90" y1="40" x2="72" y2="22" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <!-- Smiley face in sun -->
+  <circle cx="140" cy="90" r="4" fill="black"/>
+  <circle cx="160" cy="90" r="4" fill="black"/>
+  <path d="M 140 105 Q 150 110 160 105" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Stars -->
+  <polygon points="250,50 260,80 290,80 270,100 280,130 250,110 220,130 230,100 210,80 240,80" fill="#FFD700" stroke="black" stroke-width="2"/>
+  <polygon points="900,60 905,75 920,75 910,85 915,100 900,90 885,100 890,85 880,75 895,75" fill="#FFD700" stroke="black" stroke-width="2"/>
+  <polygon points="950,120 955,135 970,135 960,145 965,160 950,150 935,160 940,145 930,135 945,135" fill="none" stroke="black" stroke-width="2"/>
+  
+  <!-- Clouds -->
+  <g>
+    <circle cx="850" cy="150" r="30" fill="white" stroke="black" stroke-width="2"/>
+    <circle cx="880" cy="150" r="35" fill="white" stroke="black" stroke-width="2"/>
+    <circle cx="820" cy="150" r="25" fill="white" stroke="black" stroke-width="2"/>
+  </g>
+  
+  <!-- Paper plane -->
+  <polygon points="950,200 1000,250 950,240 920,280" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- Rainbow -->
+  <path d="M 950 500 Q 1050 300 1100 500" fill="none" stroke="#FF1493" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 930 520 Q 1050 300 1120 520" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 950 540 Q 1050 300 1100 540" fill="none" stroke="#00FF00" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 970 560 Q 1050 300 1080 560" fill="none" stroke="#0000FF" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Hearts -->
+  <g>
+    <!-- Large heart on right -->
+    <path d="M 1050 400 Q 1050 350 1080 350 Q 1100 350 1100 370 Q 1100 350 1120 350 Q 1150 350 1150 400 Q 1150 450 1100 480 Q 1050 450 1050 400" fill="#FF1493" stroke="black" stroke-width="2"/>
+    <!-- Small hearts scattered -->
+    <path d="M 500 100 Q 500 85 515 85 Q 525 85 525 95 Q 525 85 535 85 Q 550 85 550 100 Q 550 120 525 135 Q 500 120 500 100" fill="#FF1493" stroke="black" stroke-width="1"/>
+    <path d="M 200 200 Q 200 190 210 190 Q 217 190 217 197 Q 217 190 224 190 Q 234 190 234 200 Q 234 214 217 223 Q 200 214 200 200" fill="#FF1493" stroke="black" stroke-width="1"/>
+    <path d="M 700 150 Q 700 140 710 140 Q 717 140 717 147 Q 717 140 724 140 Q 734 140 734 150 Q 734 164 717 173 Q 700 164 700 150" fill="#FF1493" stroke="black" stroke-width="1"/>
+  </g>
+  
+  <!-- WOW! text -->
+  <g>
+    <polygon points="50,250 100,200 150,250 140,280 60,280" fill="white" stroke="black" stroke-width="3"/>
+    <text x="100" y="260" font-size="40" font-weight="bold" fill="#FF1493" text-anchor="middle" stroke="black" stroke-width="1">WOW!</text>
+  </g>
+  
+  <!-- Music notes -->
+  <g>
+    <path d="M 300 400 L 300 450" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="310" cy="460" r="8" fill="black"/>
+    <path d="M 330 380 L 330 430" stroke="black" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="340" cy="440" r="8" fill="black"/>
+    <path d="M 300 450 Q 315 440 330 430" stroke="black" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Colorful Glasses (main element) -->
+  <g>
+    <!-- Left lens frame -->
+    <ellipse cx="350" cy="450" rx="80" ry="90" fill="none" stroke="black" stroke-width="4"/>
+    <!-- Right lens frame -->
+    <ellipse cx="550" cy="450" rx="80" ry="90" fill="none" stroke="black" stroke-width="4"/>
+    <!-- Bridge -->
+    <rect x="420" y="440" width="80" height="20" fill="black" rx="10"/>
+    <!-- Left lens - colorful -->
+    <rect x="270" y="370" width="160" height="160" fill="#FF1493" rx="10"/>
+    <rect x="310" y="370" width="80" height="160" fill="#FFD700" rx="10"/>
+    <rect x="350" y="410" width="80" height="120" fill="#00FF00" rx="10"/>
+    <!-- Right lens - colorful -->
+    <rect x="470" y="370" width="160" height="160" fill="#FF1493" rx="10"/>
+    <rect x="510" y="370" width="80" height="160" fill="#FFD700" rx="10"/>
+    <rect x="550" y="410" width="80" height="120" fill="#0000FF" rx="10"/>
+    <!-- Shine on left -->
+    <ellipse cx="300" cy="400" rx="20" ry="30" fill="white" opacity="0.6"/>
+    <!-- Shine on right -->
+    <ellipse cx="500" cy="400" rx="20" ry="30" fill="white" opacity="0.6"/>
+  </g>
+  
+  <!-- Flower -->
+  <g>
+    <circle cx="600" cy="300" r="20" fill="#FFD700" stroke="black" stroke-width="2"/>
+    <circle cx="600" cy="260" r="15" fill="white" stroke="black" stroke-width="2"/>
+    <circle cx="640" cy="280" r="15" fill="white" stroke="black" stroke-width="2"/>
+    <circle cx="660" cy="320" r="15" fill="white" stroke="black" stroke-width="2"/>
+    <circle cx="640" cy="360" r="15" fill="white" stroke="black" stroke-width="2"/>
+    <circle cx="600" cy="380" r="15" fill="white" stroke="black" stroke-width="2"/>
+    <circle cx="560" cy="360" r="15" fill="white" stroke="black" stroke-width="2"/>
+    <circle cx="540" cy="320" r="15" fill="white" stroke="black" stroke-width="2"/>
+    <circle cx="560" cy="280" r="15" fill="white" stroke="black" stroke-width="2"/>
+  </g>
+  
+  <!-- Cupcake -->
+  <g>
+    <path d="M 750 550 L 800 550 L 795 600 L 755 600 Z" fill="#D2691E" stroke="black" stroke-width="2"/>
+    <ellipse cx="775" cy="530" rx="35" ry="25" fill="#FF1493" stroke="black" stroke-width="2"/>
+    <circle cx="775" cy="515" r="12" fill="#FFD700" stroke="black" stroke-width="1"/>
+  </g>
+  
+  <!-- Paint brush -->
+  <g>
+    <circle cx="850" cy="650" r="15" fill="#FF1493" stroke="black" stroke-width="2"/>
+    <rect x="840" y="665" width="30" height="30" fill="#8B4513" stroke="black" stroke-width="2"/>
+  </g>
+  
+  <!-- Pencil -->
+  <g>
+    <polygon points="850,750 880,750 870,780" fill="#FFD700" stroke="black" stroke-width="2"/>
+    <rect x="855" y="700" width="30" height="50" fill="#FF69B4" stroke="black" stroke-width="2"/>
+  </g>
+  
+  <!-- Ice cream -->
+  <g>
+    <polygon points="100,600 150,600 140,670 110,670" fill="#D2691E" stroke="black" stroke-width="2"/>
+    <circle cx="125" cy="580" r="35" fill="#FFB6C1" stroke="black" stroke-width="2"/>
+    <circle cx="105" cy="565" r="15" fill="#FF1493" stroke="black" stroke-width="1"/>
+  </g>
+  
+  <!-- Puzzle piece pattern -->
+  <g opacity="0.3">
+    <path d="M 200 650 L 220 650 L 220 670 L 200 670 Z M 220 650 L 240 650 L 245 665 L 220 670 Z M 240 650 L 260 650 L 260 670 L 240 670 Z" stroke="black" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Cassette tape -->
+  <g>
+    <rect x="1050" y="700" width="80" height="50" fill="black" stroke="black" stroke-width="2" rx="5"/>
+    <circle cx="1070" cy="720" r="8" fill="white"/>
+    <circle cx="1110" cy="720" r="8" fill="white"/>
+  </g>
+  
+  <!-- Crown -->
+  <g>
+    <polygon points="250,550 280,520 310,550 300,580 260,580" fill="#FFD700" stroke="black" stroke-width="2"/>
+    <circle cx="265" cy="510" r="5" fill="#FF1493"/>
+    <circle cx="295" cy="510" r="5" fill="#FF1493"/>
+  </g>
+  
+  <!-- Decorative spirals and squiggles -->
+  <path d="M 400 700 Q 420 680 440 700 Q 460 720 480 700" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 750 750 Q 770 730 790 750" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
